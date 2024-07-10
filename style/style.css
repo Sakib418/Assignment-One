@@ -196,3 +196,34 @@ height: 217.01px;
     width: 100%;
 height: 100%;
 }
+/* Third Pard */
+.Third-part{
+    
+    width: 1083px;
+    height: 775px;
+    margin:88px 152px 151px 148px;
+}
+.third-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.Third-part-vedio{
+    width: 1080px;
+    height: 614px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+}
+
+.Third-part-vedio iframe{
+    border-radius: 16px;
+    height: 550px;
+ min-height: 100%;
+ min-width: 100%;
+}
+
+
