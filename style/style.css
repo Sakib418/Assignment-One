@@ -322,3 +322,70 @@ body {
     margin: 24px 0px;
 }
 /* Fifth-part style */
+.Fifth-part{
+    width: 1083px;
+    height: 298px;
+    padding: 50px 45.6px 60.8px 45.6px;
+    margin: 45px 150px 75px 150px;
+    background-image: linear-gradient(270.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.Support-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Fifth-part-content{
+    width: 992px;
+    height: 185px;
+    margin: 32px 0px;
+}
+.Fifth-part-header{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 26px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin: 14px 0px;
+}
+.Fifth-part-description{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin: 14px 0px;
+}
+.Support-field input{
+    width: 540px;
+    height: 50px;
+    padding: 17px 18px 17px 18px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+}
+.Support-field button{
+    width: 120px;
+    height: 50px;
+    padding: 15px 18px 15px 18px;
+    margin: 0px 10px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 600;
+/* line-height: 20px; */
+text-align: center;
+}
