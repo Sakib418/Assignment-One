@@ -15,15 +15,16 @@ body {
     margin: 0 auto;
     min-height: 652px;
     border-radius: 16px;
-    min-width: 1440px;
+    min-width: 1368px;
     margin-top: 131px;
     background-image: url("../assets/Hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.banner-content{
+
+.banner-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,43 +33,166 @@ body {
 
 .banner-img {
     width: 240.28px;
-height: 240px;
-margin-top: 26px;
+    height: 240px;
+    margin-top: 26px;
 }
 
 .banner-img img {
     width: 100%;
     height: 100%;
 }
-.banner-title{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 48px;
-font-weight: 800;
-line-height: 68px;
-text-align: center;
-margin-top: 32px;
-width: 998px;
-}
-.banner-description{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-opacity: 0.7;
-margin-top: 24px;
-}
-#banner-button{
-    color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 600;
-border-radius: 8px;
-background: rgb(13, 19, 33);
-padding: 21px 24px 21px 24px;
-width: 208px;
 
-height: 66px;
-margin-top: 32px;
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin-top: 32px;
+    width: 998px;
+}
+
+.banner-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+#banner-button {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    width: 208px;
+
+    height: 66px;
+    margin-top: 32px;
+}
+
+/* Second Part style */
+.Second-part {
+    margin: 74px 152px 90px 148px;
+    padding: 80px 97px 80px 97px;
+    min-height: 1323px;
+    width: 1083px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+/* .Second-part-container{
+    
+    margin: 80px 97px;
+    
+    min-height: 1228px;
+} */
+.Second-content {
+    width: 830px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px
+}
+
+.second-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.second-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.Second-frame-two {
+    padding: 48px;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    margin: 32px 0px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+.Second-frame-three {
+    padding: 48px;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    margin: 32px 0px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-evenly;
+}
+.Second-frame-two-content {
+    width: 477px;
+    height: 219px;
+    margin: 0px 10px;
+}
+
+.Second-frame-two-h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.Second-frame-two-p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 32px;
+
+}
+
+.Second-frame-two-span {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin: 32px 0px;
+    padding: 10px 18px 10px 18px;
+    width: 171px;
+    height: 47px;
+    
+}
+.Second-frame-two-img{
+    width: 259.56px;
+height: 217.01px;
+}
+.Second-frame-two-img img{
+    width: 100%;
+height: 100%;
 }
